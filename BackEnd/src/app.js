@@ -5,7 +5,7 @@ const cors=require('cors')
 app.use(express.json())
 app.use(cors(
   {
-    origin:["https://front-jv4kokwej-zohaibrajput215-gmailcoms-projects.vercel.app"],
+    origin:["https://front-end-plum-phi.vercel.app/"],
     methods:["POST","GET"],
     credentials:true
   }
