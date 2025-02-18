@@ -27,7 +27,7 @@ function Home() {
 
     try {
       console.log("Sending Code:", code);
-      const response = await axios.post("https://code-analyzer-ai-backend.vercel.app/ai/get-review", { code });
+      const response = await axios.post("https://purebackend-production.up.railway.app/ai/get-review", { code });
       console.log("Response:", response.data);
       setReview(response.data);
       setIsLoading(false);
